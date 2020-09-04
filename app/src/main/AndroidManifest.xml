@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.AhkamTajweedActivity"></activity>
+        <activity android:name=".activities.HekamDeneyaActivity" />
+        <activity android:name=".activities.HadeethActivity" />
+        <activity android:name=".activities.SonnaNabawyaActivity" />
+        <activity android:name=".activities.AsmaaAllahActivity" />
+        <activity android:name=".activities.DoaaFromQuranActivity" />
+        <activity android:name=".activities.RoqiaActivity" />
+        <activity android:name=".activities.AllDoaaActivity" />
+        <activity android:name=".activities.CitationNightActivity" />
+        <activity android:name=".activities.SectionsActivity" />
+        <activity android:name=".activities.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity2" />
+        <activity android:name=".activities.MainActivity" />
+    </application>
+
+</manifest>
