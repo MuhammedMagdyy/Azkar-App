@@ -1,2 +1,2 @@
 # Azkar-App
-This app builds Using Java (Android development), it's a Muslim app that contains a lot of things that will help you
+This app has been built Using Java (Android development); it's a Muslim app that contains many things that will help you.
